@@ -1,2 +1,4 @@
-# AutoVista_Car_Sales_Intelligence_and_Performance_Analysis
-Data Cleaning, EDA and Visualization
+#### Project Title: AutoVista Sales Intelligence & Performance Analysis
+#### Tool Used: Microsoft Power BI
+#### Project Lead: David Abe
+#### Date: [Insert Presentation Date]
