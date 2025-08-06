@@ -113,3 +113,8 @@ These filters enable dynamic data exploration based on business needs and stakeh
 
 <br>
 <br>
+
+###  KPI & Metrics
+
+This section highlights the core KPIs and performance metrics used to evaluate key aspects of AutoVista’s sales operations across the 2022 and 2023 fiscal years.
+
