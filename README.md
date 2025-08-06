@@ -58,6 +58,42 @@ The analysis and visualization was guided by key business questions:
 <br>
 <br>
 
+
+### Onboarding Page (showcasing Top Premium Model)
+
+The Onboarding Page serves as a visually compelling entry point into the ***AutoVista Sales Trend and Performance Dashboard***. It introduces the most premium and high-value vehicle model based on sales data from 2022 and 2023.
+
+<img width="900" height="500" alt="Onboarding" src="https://github.com/user-attachments/assets/95d5282b-075f-4dd1-bd3e-89aa3b7b73d5" />
+
+<br>
+
+- Top Premium
+  - Model Name: Cadillac Eldorado
+  - Selling Price: $85,800
+  - Units Sold: 232 cars
+  - Model Revenue: $9.7M
+  - Overall Sales Revenue: $671.5M.
+
+<br>
+
+- Feature Highlights (vehicle’s premium features)
+  - Double Overhead Shaft Engine
+  - Convertible Body Style
+  - Manual Transmission
+  - Passenger Body Style
+ 
+<br>
+
+- Model Specifications Panel
+  - Mileage: 12 MPG
+  - Horsepower: 335 HP
+  - Top Speed: 130 MPH
+  - Fuel Type: Petrol
+
+
+<br>
+<br>
+
 ### Slicers & Interactivity
 
 The dashboard is designed to be fully interactive using slicers such as:
@@ -77,39 +113,3 @@ These filters enable dynamic data exploration based on business needs and stakeh
 
 <br>
 <br>
-
-
-### Onboarding Page
-
-**Showcasing the Top Premium Car Model**
-
-The Onboarding Page serves as a visually compelling entry point into the *AutoVista Sales Trend and Performance Dashboard*. It introduces the most premium and high-value vehicle model based on sales data from 2022 and 2023.
-
-<img width="900" height="500" alt="Onboarding" src="https://github.com/user-attachments/assets/95d5282b-075f-4dd1-bd3e-89aa3b7b73d5" />
-
-<br>
-
-- Top Premium
-  - Model Name: Cadillac Eldorado
-  - Selling Price: $85,800
-  - Units Sold: 232 cars
-  - Model Revenue: $9.7M
-  - Total Revenue: Car sales overall total of $671.5M.
-
-<br>
-
-- Feature Highlights (vehicle’s premium features)
-  - Double Overhead Shaft Engine
-  - Convertible Body Style
-  - Manual Transmission
-  - Passenger Body Style
- 
-<br>
-
-- Model Specifications Panel
-  - Mileage: 12 MPG
-  - Horsepower: 335 HP
-  - Top Speed: 130 MPH
-  - Fuel Type: Petrol
-
-
