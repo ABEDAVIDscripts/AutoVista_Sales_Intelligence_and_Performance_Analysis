@@ -8,7 +8,7 @@
 
 ### Introduction:
 
-The AutoVista Sales project was designed to convert raw automotive sales data into actionable business insights. The process began in SQL Server Management Studio (SSMS), where the dataset was meticulously cleaned to eliminate inconsistencies, duplicates, and missing values. Comprehensive Exploratory Data Analysis (EDA) was then conducted to identify key sales trends, product performance, and revenue patterns. These findings were translated into a dynamic Power BI dashboard that visualizes sales heatmap, revenue contribution and monthly trends. The final dashboard serves as a strategic tool for monitoring revenue performance and market behavior, enabling data-driven decisions to optimize sales outcomes.
+The AutoVista Sales project was designed to convert raw automotive sales data from 2022 and 2023 into actionable business insights. The process began in SQL Server Management Studio (SSMS), where the dataset was meticulously cleaned to eliminate inconsistencies, duplicates, and missing values. Comprehensive Exploratory Data Analysis (EDA) was then conducted to identify key sales trends, product performance, and revenue patterns across both years. These findings were translated into a dynamic Power BI dashboard that visualizes sales heatmap, revenue contribution, and monthly trends. The final dashboard serves as a strategic tool for monitoring revenue performance, identifying year-over-year changes, and understanding market behavior — enabling data-driven decisions to optimize sales outcomes.
 
 <br>
 <br>
@@ -25,7 +25,7 @@ The AutoVista Sales project was designed to convert raw automotive sales data in
 
 ### Business Objectives
 
-The analysis and visualization was guided by key business questions:
+The analysis and visualization were guided by key business questions aimed at uncovering insights from the 2022 and 2023 sales data:
 
 - Section A: Business Performance & Operational Metrics
   - What is the total revenue from car sales? 
@@ -62,6 +62,8 @@ The analysis and visualization was guided by key business questions:
 ### Onboarding Page (showcasing Top Premium Model)
 
 The Onboarding Page serves as a visually compelling entry point into the ***AutoVista Sales Trend and Performance Dashboard***. It introduces the most premium and high-value vehicle model based on sales data from 2022 and 2023.
+
+<br>
 
 <img width="900" height="500" alt="Onboarding" src="https://github.com/user-attachments/assets/95d5282b-075f-4dd1-bd3e-89aa3b7b73d5" />
 
@@ -118,3 +120,15 @@ These filters enable dynamic data exploration based on business needs and stakeh
 
 This section highlights the core KPIs and performance metrics used to evaluate key aspects of AutoVista’s sales operations across the 2022 and 2023 fiscal years.
 
+- Total Revenue
+$300.3M (2022) ➕ $371.2M (2023) = $671.5M (Total Revenue)
+
+<p align="center">
+  <img width="191" height="69" alt="Total Revenue 2022" src="https://github.com/user-attachments/assets/101f6e48-6740-480d-b885-579c36543acf" />
+  <strong style="font-size: 24px; margin: 0 10px;"> + </strong>
+  <img width="190" height="68" alt="Total Revenue 2023" src="https://github.com/user-attachments/assets/697b0464-b4e8-4f8b-ad8f-37107dc6df29" />
+  <strong style="font-size: 24px; margin: 0 10px;"> = </strong>
+  <img width="191" height="68" alt="Total Revenue" src="https://github.com/user-attachments/assets/ab511235-3a91-4334-8a98-0c47d42cd8f3" />
+</p>
+
+This highlights a significant YoY growth, with 2023 outperforming 2022 by 23.6% ($70.9M).
