@@ -68,6 +68,7 @@ The Onboarding Page serves as a visually compelling entry point into the ***Auto
 <img width="900" height="500" alt="Onboarding" src="https://github.com/user-attachments/assets/95d5282b-075f-4dd1-bd3e-89aa3b7b73d5" />
 
 <br>
+<br>
 
 - Top Premium
   - Model Name: Cadillac Eldorado
@@ -120,6 +121,8 @@ These filters enable dynamic data exploration based on business needs and stakeh
 
 This section highlights the core KPIs and performance metrics used to evaluate key aspects of AutoVista’s sales operations across the 2022 and 2023 fiscal years.
 
+1. KPI
+
 - Total Revenue
 $300.3M (2022) ➕ $371.2M (2023) = $671.5M (Total Revenue)
 
@@ -131,4 +134,42 @@ $300.3M (2022) ➕ $371.2M (2023) = $671.5M (Total Revenue)
   <img width="191" height="68" alt="Total Revenue" src="https://github.com/user-attachments/assets/ab511235-3a91-4334-8a98-0c47d42cd8f3" />
 </p>
 
-This highlights a significant YoY growth, with 2023 outperforming 2022 by 23.6% ($70.9M).
+> ##### This highlights a significant YoY growth, with 2023 outperforming 2022 by 23.6% ($70.9M).
+
+<br>
+<br>
+<br>
+
+- AVG Revenue
+ $28.2k (2022) vs $28.0k (2023) = $28.1k (Overall Average Revenue)
+
+<p align="center">
+  <img width="191" height="68" alt="Avg Revenue 2022" src="https://github.com/user-attachments/assets/391dd921-527b-4546-b1a4-ace3b2b95df0" />
+  <span style="font-size: 16px; margin: 0 10px;"> vs </span>
+  <img width="189" height="68" alt="Avg Revenue 2023" src="https://github.com/user-attachments/assets/76cc75e7-2244-4f3a-83e3-a6b7bcedb0fd" />
+  <strong style="font-size: 20px; margin: 0 10px;"> = </strong>
+  <img width="191" height="68" alt="Avg Revenue" src="https://github.com/user-attachments/assets/5cac369b-2886-4b31-94a6-b6958536c643" />
+</p>
+
+> ##### This indicates a slight YoY decline, with average revenue in 2023 dropping by 0.8%.
+
+<br>
+<br>
+<br>
+
+- Annual Income
+ $9.1bn (2022) vs $10.7bn (2023) = $19.9bn (Total Annual Income)
+
+<img width="189" height="68" alt="Annual Income 2022" src="https://github.com/user-attachments/assets/0ee2c987-fced-40f2-9014-ac59ad791256" />
+<img width="191" height="69" alt="Annual Income" src="https://github.com/user-attachments/assets/5724be23-6da4-4d4c-ba44-1ff0b3cae661" />
+<img width="190" height="68" alt="Annual Income 2023" src="https://github.com/user-attachments/assets/7cdf97ec-0be7-4c65-ae75-2ff7cbeb52db" />
+
+
+
+
+- AVG Annual Income
+- Number of Sales
+
+
+
+2. Metrics
