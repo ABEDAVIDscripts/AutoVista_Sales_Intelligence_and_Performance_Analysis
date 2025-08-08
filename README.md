@@ -121,16 +121,17 @@ These filters enable dynamic data exploration based on business needs and stakeh
 
 This section highlights the core KPIs and performance metrics used to evaluate key aspects of AutoVista’s sales operations across the 2022 and 2023 fiscal years.
 
-1. KPI
+1. KPIs
 
-- Total Revenue
-$300.3M (2022) ➕ $371.2M (2023) = $671.5M (Total Revenue)
+- Total Revenue:
+
+$300.3M (2022) vs $371.2M (2023) = $671.5M (Total Revenue)
 
 <p align="center">
   <img width="191" height="69" alt="Total Revenue 2022" src="https://github.com/user-attachments/assets/101f6e48-6740-480d-b885-579c36543acf" />
-  <strong style="font-size: 24px; margin: 0 10px;"> + </strong>
+  <strong style="font-size: 16px; margin: 0 10px;"> vs </strong>
   <img width="190" height="68" alt="Total Revenue 2023" src="https://github.com/user-attachments/assets/697b0464-b4e8-4f8b-ad8f-37107dc6df29" />
-  <strong style="font-size: 24px; margin: 0 10px;"> = </strong>
+  <strong style="font-size: 20px; margin: 0 10px;"> = </strong>
   <img width="191" height="68" alt="Total Revenue" src="https://github.com/user-attachments/assets/ab511235-3a91-4334-8a98-0c47d42cd8f3" />
 </p>
 
@@ -140,8 +141,9 @@ $300.3M (2022) ➕ $371.2M (2023) = $671.5M (Total Revenue)
 <br>
 <br>
 
-- AVG Revenue
- $28.2k (2022) vs $28.0k (2023) = $28.1k (Overall Average Revenue)
+- Average Revenue:
+
+$28.2k (2022) vs $28.0k (2023) = $28.1k (Overall Average Revenue)
 
 <p align="center">
   <img width="191" height="68" alt="Avg Revenue 2022" src="https://github.com/user-attachments/assets/391dd921-527b-4546-b1a4-ace3b2b95df0" />
@@ -157,8 +159,9 @@ $300.3M (2022) ➕ $371.2M (2023) = $671.5M (Total Revenue)
 <br>
 <br>
 
-- Annual Income
- $9.1bn (2022) vs $10.7bn (2023) = $19.9bn (Total Annual Income)
+- Annual Income:
+
+$9.1bn (2022) vs $10.7bn (2023) = $19.9bn (Total Annual Income)
 
 <p align="center">
   <img width="189" height="68" alt="Annual Income 2022" src="https://github.com/user-attachments/assets/0ee2c987-fced-40f2-9014-ac59ad791256" />
@@ -168,11 +171,85 @@ $300.3M (2022) ➕ $371.2M (2023) = $671.5M (Total Revenue)
   <img width="191" height="69" alt="Annual Income" src="https://github.com/user-attachments/assets/5724be23-6da4-4d4c-ba44-1ff0b3cae661" />
 </p>
 
+> ##### This reflect a strong year-over-year increase, with 2023 annual income rising by 18.0%.
 
 
-- AVG Annual Income
+<br>
+<br>
+<br>
+
+- Average Annual Income:
+
+$856.1k (2022) vs $810.6k (2023) = $830.8k (Overall Average Annual Income)
+
+<p align="center">
+  <img width="191" height="68" alt="Avg Annual Income 2022" src="https://github.com/user-attachments/assets/86bc749b-e096-4881-8155-02328bb801bd" />
+  <span style="font-size: 16px; margin: 0 10px;"> vs </span>
+  <img width="191" height="68" alt="Avg Annual Income 2023" src="https://github.com/user-attachments/assets/b69b1469-3970-4bb4-adb0-723a432b99fd" />
+  <strong style="font-size: 20px; margin: 0 10px;"> = </strong>
+  <img width="190" height="68" alt="AVG Annual Income" src="https://github.com/user-attachments/assets/2c024cce-4843-4ab2-a54a-ec6951934d47" />
+</p>
+
+> ##### This reflect a slight year-over-year decline, with 2023 average income down by 5.3%.
+
+<br>
+<br>
+<br>
+
 - Number of Sales
 
+10.6k (2022) vs 13.3k (2023) = 23.9k (Total Number of Sales)
+
+<p align="center">
+  <img width="191" height="68" alt="Number of Sales 2022" src="https://github.com/user-attachments/assets/1252e64a-d401-4c59-923d-a409c0150421" />
+  <span style="font-size: 16px; margin: 0 10px;"> vs </span>
+  <img width="191" height="68" alt="Number of Sales 2023" src="https://github.com/user-attachments/assets/110af01e-1786-41b3-b0c0-7263887f818a" />
+  <strong style="font-size: 20px; margin: 0 10px;"> = </strong>
+  <img width="190" height="67" alt="Number of Sales" src="https://github.com/user-attachments/assets/ec7acf86-9888-4c18-808e-06ab934171ba" />
+</p>
+
+> ##### This reflect a strong year-over-year growth, with 2023 sales increasing by 24.6%.
+
+<br>
+<br>
+<br>
+
+2. Consolidated Metrics
+
+- Sales Performance by Company
+<img width="406" height="182" alt="sales performance by company" src="https://github.com/user-attachments/assets/0296e165-63d5-4d54-b15d-59f2ca25623f" />
+
+> ##### Chevrolet outperformed Ford to lead overall sales.
+
+<br>
+<br>
+<br>
+
+- Monthly Sales Heatmap by Car Model
+<img width="621" height="183" alt="Monthly sales heatmap" src="https://github.com/user-attachments/assets/b0a28325-a843-4075-80cd-d1d87f856f22" />
+
+> ##### The LS400 recorded the highest monthly sales revenue ($2.68M), peaking in September.
+
+<br>
+<br>
+<br>
+
+- Monthly Revenue Trend
+<img width="621" height="200" alt="monthly revenue trend" src="https://github.com/user-attachments/assets/b2c61eb7-2edd-4b97-817a-2ee0aad6adfb" />
+
+> ##### December delivered peak revenue due to year-end sales drives.
+
+<br>
+<br>
+<br>
+
+- Revenue Contribution by Car Body
+<img width="407" height="198" alt="Revenue contribution" src="https://github.com/user-attachments/assets/497a80be-2609-4d87-83d4-0450d55f39a3" />
+
+> ##### SUVs dominated the top spot
 
 
-2. Metrics
+
+
+
+
