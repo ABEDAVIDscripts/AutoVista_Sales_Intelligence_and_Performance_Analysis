@@ -160,10 +160,13 @@ $300.3M (2022) ➕ $371.2M (2023) = $671.5M (Total Revenue)
 - Annual Income
  $9.1bn (2022) vs $10.7bn (2023) = $19.9bn (Total Annual Income)
 
-<img width="189" height="68" alt="Annual Income 2022" src="https://github.com/user-attachments/assets/0ee2c987-fced-40f2-9014-ac59ad791256" />
-<img width="191" height="69" alt="Annual Income" src="https://github.com/user-attachments/assets/5724be23-6da4-4d4c-ba44-1ff0b3cae661" />
-<img width="190" height="68" alt="Annual Income 2023" src="https://github.com/user-attachments/assets/7cdf97ec-0be7-4c65-ae75-2ff7cbeb52db" />
-
+<p align="center">
+  <img width="189" height="68" alt="Annual Income 2022" src="https://github.com/user-attachments/assets/0ee2c987-fced-40f2-9014-ac59ad791256" />
+  <span style="font-size: 16px; margin: 0 10px;"> vs </span>
+  <img width="190" height="68" alt="Annual Income 2023" src="https://github.com/user-attachments/assets/7cdf97ec-0be7-4c65-ae75-2ff7cbeb52db" />
+  <strong style="font-size: 20px; margin: 0 10px;"> = </strong>
+  <img width="191" height="69" alt="Annual Income" src="https://github.com/user-attachments/assets/5724be23-6da4-4d4c-ba44-1ff0b3cae661" />
+</p>
 
 
 
