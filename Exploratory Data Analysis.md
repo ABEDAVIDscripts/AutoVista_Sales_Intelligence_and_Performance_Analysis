@@ -1,13 +1,12 @@
 
 ## DATA EXPLORATORY ANALYSIS (BUSINESS QUESTIONS)
 
-<br>
-<br>
+
 
 ### Section A: Business Performance & Operational Metrics
 
 <br>
-<br>
+
 
 #### 1. What is the total revenue from car sales? 
 
@@ -301,6 +300,7 @@ ORDER BY High_Purchase DESC;
 ```SQL
 select * from car_worksheet;
 ```
+
 
 
 
