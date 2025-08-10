@@ -1,8 +1,8 @@
 #### Project Title: AutoVista Sales Intelligence & Performance Analysis
 #### Tool Used: SQL Server Management Studio, Microsoft Power BI & Excel
 #### Project Lead: David Abe
-#### Start Date:  
-#### End Date: 
+#### Start Date: June 2025
+#### End Date: August 2025
 
 <br>
 <br>
@@ -66,6 +66,9 @@ This stage was conducted entirely in SQL Server Management Studio (SSMS), with t
 2. Uncover initial insights — Exploring the data to reveal sales trends, product performance patterns, and revenue distribution across both 2022 and 2023.
 
 The EDA process was guided by the Business Performance & Operational Metrics and Customer Segmentation Questions outlined in the objectives section, ensuring each transformation and query directly supported the project’s analytical goals.
+
+- [View complete Data Preparation & Cleaning process here](Data Preparation & Cleaning.md)
+- [View complete EDA process here](Exploratory Data Analysis.md)
 
 <br>
 <br>
