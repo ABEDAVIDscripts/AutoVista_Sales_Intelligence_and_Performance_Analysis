@@ -67,8 +67,8 @@ This stage was conducted entirely in SQL Server Management Studio (SSMS), with t
 
 The EDA process was guided by the Business Performance & Operational Metrics and Customer Segmentation Questions outlined in the objectives section, ensuring each transformation and query directly supported the project’s analytical goals.
 
-- [View complete Data Preparation & Cleaning process here](Data Preparation & Cleaning.md)
-- [View complete EDA process here](Exploratory Data Analysis.md)
+- [View complete Data Preparation & Cleaning process here](Data%20Preparation%20%26%20Cleaning.md)
+- [View complete EDA process here](Exploratory%20Data%20Analysis.md)
 
 <br>
 <br>
