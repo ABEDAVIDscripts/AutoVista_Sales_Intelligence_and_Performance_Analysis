@@ -166,6 +166,9 @@ FROM Dropped_Table
 WHERE Dropped_No >= 1;
 ```
 
+<BR>
+<BR>
+<BR>
 
 ## SECTION B. Customer Segmentation Questions
 
@@ -300,4 +303,5 @@ USE [sales db];
 <BR>
 ```SQL
 select * from car_worksheet;
+
 ```
