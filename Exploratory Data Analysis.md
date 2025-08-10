@@ -4,7 +4,7 @@
 <br>
 <br>
 
-## Section A: Business Performance & Operational Metrics
+### Section A: Business Performance & Operational Metrics
 
 <br>
 <br>
@@ -170,7 +170,7 @@ WHERE Dropped_No >= 1;
 <BR>
 <BR>
 
-## SECTION B. Customer Segmentation Questions
+### SECTION B. Customer Segmentation Questions
 
 <BR>
 
@@ -294,12 +294,13 @@ ORDER BY High_Purchase DESC;
 <BR>
 <BR>
 
-#### THE END
+##### THE END
 
 > Verification
 
 ```SQL
 select * from car_worksheet;
 ```
+
 
 
