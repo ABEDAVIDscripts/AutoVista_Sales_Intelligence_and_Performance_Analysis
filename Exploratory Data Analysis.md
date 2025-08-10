@@ -296,12 +296,9 @@ ORDER BY High_Purchase DESC;
 
 #### THE END
 
-```SQL
-USE [sales db];
-```
+> Verification
 
-<BR>
 ```SQL
 select * from car_worksheet;
-
 ```
+
