@@ -292,10 +292,18 @@ Provides a concise, high-level overview of the most important findings from the 
 <br>
 <br>
 <br>
+<br>
+<br>
 
 
 
-#### Thank you for exploring the AutoVista Sales analysis.
+<p align="center"> 
+<img width="500" height="50" alt="project end image" src="https://github.com/user-attachments/assets/98271561-5f31-46fe-ad47-3ef60b498099" />
+</p>
+
+<p align="center"> Thank you for exploring the AutoVista Sales analysis. </p>
+
+<p align="center"> David Abe </p>
 
 
 <br>
