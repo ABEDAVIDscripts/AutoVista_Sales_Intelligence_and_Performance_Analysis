@@ -1,5 +1,5 @@
 #### Project Title: AutoVista Sales Intelligence & Performance Analysis
-#### Tool Used: SQL Server Management Studio, Microsoft Power BI & Microsoft Excel
+#### Tool Used: SQL Server Management Studio, Microsoft Power BI & Excel
 #### Project Lead: David Abe
 #### Start Date:  
 #### End Date: 
