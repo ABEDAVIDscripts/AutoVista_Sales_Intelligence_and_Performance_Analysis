@@ -363,13 +363,14 @@ ORDER BY annual_income DESC;
 <br>
 <br>
 
-#### DATA CLEANING COMPLETE
+#### The End
 
 
-> verify
+> Final verification
 
 ```SQL
 SELECT * FROM car_worksheet;
 ```
+
 
 
