@@ -1,5 +1,5 @@
 
-# DATA EXPLORATORY ANALYSIS (BUSINESS QUESTIONS)
+## DATA EXPLORATORY ANALYSIS (BUSINESS QUESTIONS)
 
 <br>
 <br>
@@ -9,7 +9,7 @@
 <br>
 <br>
 
-### 1. What is the total revenue from car sales? 
+#### 1. What is the total revenue from car sales? 
 
 ```SQL
 SELECT SUM(Price) AS Total_Revenue
@@ -20,7 +20,7 @@ FROM car_worksheet;
 <BR>
 
 
-### 2. Which car models generate the highest revenue? 
+#### 2. Which car models generate the highest revenue? 
 
 ```SQL
 SELECT model, SUM(price) AS Total_Revenue
@@ -32,7 +32,7 @@ ORDER BY 2 DESC;
 <BR>
 <BR>
 
-### 3. Which dealer regions contributed most to revenue? 
+#### 3. Which dealer regions contributed most to revenue? 
 
 ```SQL
 SELECT dealer_region, SUM(price) AS Total_Revenue
@@ -44,7 +44,7 @@ ORDER BY 2 DESC;
 <BR>
 <BR>
 
-### 4. What is the average revenue per customer? 
+#### 4. What is the average revenue per customer? 
 
 ```SQL
 WITH customer_table AS 
@@ -59,7 +59,7 @@ FROM customer_table;
 <BR>
 <BR>
 
-### 5. Which dealerships achieved the most sales? 
+#### 5. Which dealerships achieved the most sales? 
 ```SQL
 SELECT Dealer_Name, COUNT(*) AS Total_Sales, SUM(Price) AS Total_Revenue
 FROM car_worksheet
@@ -70,7 +70,7 @@ ORDER BY 3 DESC;
 <BR>
 <BR>
 
-### 6. How do monthly car sales trend across the year? 
+#### 6. How do monthly car sales trend across the year? 
 
 ```SQL
 SELECT 
@@ -87,7 +87,7 @@ ORDER BY Sales_Year, Month_No;
 <BR>
 <BR>
 
-### 7. Which months had the highest and lowest sales volumes? 
+#### 7. Which months had the highest and lowest sales volumes? 
 
 ```SQL
 WITH Highest_table AS
@@ -120,7 +120,7 @@ SELECT * FROM Lowest_table;
 <BR>
 <BR>
 
-### 8. Are there customers who made multiple purchases?
+#### 8. Are there customers who made multiple purchases?
 
 ```SQL
 SELECT 
@@ -135,7 +135,7 @@ ORDER BY Multiple_purchase DESC;
 <BR>
 <BR>
 
-### 9. Are there customers who significantly reduced their purchase activity? 
+#### 9. Are there customers who significantly reduced their purchase activity? 
 
 ```SQL
 WITH Purchase_Table AS
@@ -174,7 +174,7 @@ WHERE Dropped_No >= 1;
 
 <BR>
 
-### 1. Can customers be segmented by purchase value (e.g., high-, mid-, and low-tier spenders)? 
+#### 1. Can customers be segmented by purchase value (e.g., high-, mid-, and low-tier spenders)? 
 
 > Using Above 1,000,000 as High Spender; 500,000 - 999,999 as Mid Spender; Others Low Spender
 
@@ -200,7 +200,7 @@ ORDER BY Price DESC;
 <BR>
 
 
-### 2. What’s the gender-wise distribution of car buyers? 
+#### 2. What’s the gender-wise distribution of car buyers? 
 
 ```SQL
 WITH Gender_table AS
@@ -219,7 +219,7 @@ GROUP BY Gender, Distribution_count;
 <BR>
 <BR>
 
-### 3. What is the income range of customers buying specific models or brands? 
+#### 3. What is the income range of customers buying specific models or brands? 
 
 ```SQL
 SELECT 
@@ -235,7 +235,7 @@ ORDER BY High_Income ;
 <BR>
 <BR>
 
-### 4. What is the average revenue per income bracket? 
+#### 4. What is the average revenue per income bracket? 
 
 ```SQL
 WITH income_table AS
@@ -266,7 +266,7 @@ ORDER BY AVG_Price;
 
 
 
-### 5. Can we identify potential premium customers based on purchase patterns or amounts? 
+#### 5. Can we identify potential premium customers based on purchase patterns or amounts? 
 
 ```SQL
 WITH Price_table AS
@@ -301,4 +301,5 @@ ORDER BY High_Purchase DESC;
 ```SQL
 select * from car_worksheet;
 ```
+
 
