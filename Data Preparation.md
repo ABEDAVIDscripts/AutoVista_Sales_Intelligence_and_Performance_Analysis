@@ -17,6 +17,7 @@ USE [sales db];
 
 <br>
 <br>
+<br>
 
 
 ### Data Cleaning Procedure:
@@ -30,6 +31,7 @@ INTO car_worksheet
 FROM car_sales_report;
 ```
 
+
 > Verify
 
 ```SQL
@@ -37,6 +39,7 @@ SELECT * FROM car_worksheet;
 ```
  
 <BR>
+<br>
 <BR>
 
 #### 2. Check and Remove Duplicates
@@ -50,6 +53,7 @@ Having Count(*) > 1;
 
 > No duplicates found
 
+<br>
 
 #### 2b. Check and set car_id as Primary Key
 
@@ -71,6 +75,7 @@ ADD PRIMARY KEY (car_id);
 
 <BR>
 <BR>
+<br>
 
 #### 3. Check for Missing Values
 
@@ -96,6 +101,7 @@ WHERE
 
 <br>
 <BR>
+<br>
 
 #### 4. Standardize Categorical Text
 
@@ -103,6 +109,7 @@ WHERE
 select * from car_worksheet;
 ```
 
+<br>
 
 #### 4A. check with Customer_Name column
 
@@ -111,6 +118,7 @@ SELECT DISTINCT Customer_Name
 FROM car_worksheet
 ORDER BY 1 ASC;
 ```
+
 
 
 > Update incorrect entries from "Amar'E" to "Amar'e"
@@ -122,6 +130,7 @@ WHERE Customer_Name = 'Amar''E';
 ```
 
 
+
 > verify
 
 ```SQL
@@ -131,6 +140,7 @@ WHERE Customer_Name = 'Amar''e'
 OR Customer_Name = 'Amar''E';
 ```
 
+<br>
 
 #### 4B. check with Company column
 
@@ -139,6 +149,7 @@ SELECT DISTINCT Company
 FROM car_worksheet
 ORDER BY 1 ASC;
 ```
+
 
 
 > Update incorrect entries from 'Mercedes-B' to 'Merecedes-Benz'
@@ -150,6 +161,7 @@ WHERE Company = 'Mercedes-B';
 ```
 
 
+
 > verfiy
 
 ```SQL
@@ -159,6 +171,7 @@ WHERE company = 'Mercedes-Benz'
 OR company = 'Mercedes-B';
 ```
 
+<br>
 
 #### 4C. check with Model column
 
@@ -167,6 +180,8 @@ SELECT DISTINCT Model
 FROM car_worksheet
 ORDER BY 1 ASC;
 ```
+
+
 
 > Issue Identified: The Model column contains invalid entries i.e. '3-Sep' and '5-Sep', which resemble dates rather than actual car model names.
 
@@ -179,18 +194,21 @@ WHERE Model IN ('3-Sep', '5-Sep');
 ```
 
 
+
 > verify
 ```SQL
 SELECT Model FROM car_worksheet
 WHERE model = '3-Sep' OR model = '5-Sep';
 ```
 
+<br>
 
 #### 4D. check with Engine column
 ```SQL
 SELECT DISTINCT engine
 FROM car_worksheet;
 ```
+
 
 
 > Issue identified: Text encoding error in 'Engine' column (e.g., 'DoubleÃ‚Â Overhead Camshaft')
@@ -204,7 +222,9 @@ WHERE Engine = 'DoubleÂ Overhead Camshaft';
 ```
 
 
+
 > verify
+
 
 ```SQL
 SELECT DISTINCT engine
@@ -213,6 +233,7 @@ FROM car_worksheet;
 
 <br>
 <BR>
+<br>
 
 #### 5. Fix Data Types
 
@@ -223,7 +244,9 @@ EXEC sp_help 'car_worksheet';
 ```
 
 
+
 > Change the Date column Datatype from 'Datetime2' to 'Date' to remove unnecessary timestamp details
+
 
 ```SQL
 ALTER TABLE car_worksheet
@@ -231,7 +254,9 @@ ALTER COLUMN date DATE;
 ```
 
 
+
 > Verify
+
 
 ```SQL
 SELECT date FROM car_worksheet;
@@ -239,11 +264,13 @@ SELECT date FROM car_worksheet;
 
 <br>
 <BR>
+<br>
 
 #### 6. Validating and Correcting Outliers
 
 > check with the numerical columns(Annual_Income, Price & Phone)
 
+<br>
 
 #### 6A. check with Price column
 
@@ -254,9 +281,11 @@ ORDER BY price DESC;
 ```
 
 
+
 > possible outliers found (4300, 4200, 2200, 1700, 1450, 1200), extremely low compared to the rest in the Price column
 
 > verify the outliers data
+
 
 ```SQL
 SELECT *
@@ -266,9 +295,11 @@ ORDER BY price DESC;
 ```
 
 
+
 > since there is no indication that the data can be of mixed new and used cars, hence will treat outliers with care
 
 > create a new column to Flag the possible outliers, Flag price that are below 9000
+
 
 ```SQL
 ALTER TABLE car_worksheet
@@ -276,7 +307,9 @@ ADD Price_Flag VARCHAR(20);
 ```
 
 
+
 > Suspicious if below 9000, Ok if above
+
 
 ```SQL
 UPDATE car_worksheet
@@ -286,7 +319,10 @@ SET Price_Flag = CASE
 	END;
 ```
 
+
+
 > verify
+
 
 ```SQL
 SELECT * FROM car_worksheet
@@ -294,8 +330,10 @@ WHERE price_flag = 'Suspicious'
 ORDER BY Price DESC;
 ```
 
+<br>
 
 #### 6B. check with Annual_Income
+
 
 ```SQL
 SELECT DISTINCT annual_income
@@ -304,9 +342,11 @@ ORDER BY 1 DESC;
 ```
 
 
+
 > possible outliers (24000, 13500, 10080), extremely low compared to the rest 
 
 > verify the outlier data
+
 
 ```SQL
 SELECT * FROM car_worksheet
@@ -315,9 +355,11 @@ ORDER BY annual_income DESC;
 ```
 
 
+
 > This may seem like an outlier, 
 > but certain age groups such as Teenagers (16–19) and Elderly (65+) can fall within this Annual Income range, so the data may still be valid.
 
+<br>
 <br>
 <br>
 
@@ -329,3 +371,4 @@ ORDER BY annual_income DESC;
 ```SQL
 SELECT * FROM car_worksheet;
 ```
+
